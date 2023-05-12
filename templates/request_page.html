@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SELECT THE EXERCISE</title>
+</head>
+<body>
+	<form method="GET" action="{{ url_for('show') }}">
+		<div>Choose an Exercise</div><br>
+			<div class="exercise">
+			<input type="radio" name="sub" value="left">LEFT ARM BICEP CURL</input>
+			</div>
+
+			<div class="exercise">
+			<input type="radio" name="sub" value="right">RIGHT ARM BICEP CURL</input>
+			</div>
+
+			<div class="exercise">
+			<input type="radio" name="sub" value="pushup">PUSH UP</input>
+			</div>
+
+			<div class="exercise">
+			<input type="radio" name="sub" value="squat">SQUAT</input>
+			</div>
+
+			<input type="submit">
+		</form>
+</body>
+</html>
