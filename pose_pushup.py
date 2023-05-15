@@ -9,7 +9,7 @@ def pushup():
     count = 0
     direction = 0
     form = 0
-    feedback = "FIX FORM"
+    feedback = "LOWER YOUR WAIST"
 
     with detector.pose:
         while True:
@@ -39,21 +39,21 @@ def pushup():
                 if form == 1:
                     if per == 0:
                         if elbow <= 90 and hip > 160:
-                            feedback = "Up"
+                            feedback = "UP"
                             if direction == 0:
                                 count += 0.5
                                 direction = 1
                         else:
-                            feedback = "Fix Form"
+                            feedback = "LOWER YOUR WAIST"
                             
                     if per == 100:
                         if elbow > 160 and shoulder > 40 and hip > 160:
-                            feedback = "Down"
+                            feedback = "DOWN"
                             if direction == 1:
                                 count += 0.5
                                 direction = 0
                         else:
-                            feedback = "Fix Form"
+                            feedback = "LOWER YOUR WAIST"
                                 # form = 0
 
                 print(count)

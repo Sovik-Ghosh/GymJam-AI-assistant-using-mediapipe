@@ -9,7 +9,7 @@ def right_curl():
     count = 0
     direction = 0
     form = 0
-    feedback = "FIX FORM"
+    feedback = "LOWER YOUR ARM"
 
     with detector.pose:
         while True:
@@ -43,7 +43,7 @@ def right_curl():
                                 count += 0.5
                                 direction = 1
                         else:
-                            feedback = "FIX FORM"
+                            feedback = "LOWER YOUR ARM"
                             
                     if per == 100:
                         if elbow < 40 and shoulder < 40:
@@ -52,7 +52,7 @@ def right_curl():
                                 count += 0.5
                                 direction = 0
                         else:
-                            feedback = "FIX FORM"
+                            feedback = "LOWER YOUR ARM"
                                 # form = 0
 
                 print(count)
