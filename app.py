@@ -49,4 +49,4 @@ def show():
     return redirect(f'/video_feed_{subject}')
 
 if __name__ == '__main__':
-    app.run(host = "0.0.0.0" , debug=True)
+    app.run(host = "0.0.0.0" , debug=False)
