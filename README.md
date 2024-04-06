@@ -112,7 +112,7 @@ You can modify the existing controllers or create new ones.
 5. [pose_pushup.py](backend/pose_pushup.py) calculates and corrects pushup using coordinates from the left side
 6. [pose_squat.py](backend/pose_squat.py) calculates and corrects squat using coordinates from the left side
 
-Additionally, you can explore advanced features provided by Mediapipe.
+Additionally, you can explore advanced features provided by [Mediapipe](https://developers.google.com/mediapipe).
 
 ## Contributing
 
