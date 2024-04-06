@@ -12,19 +12,15 @@ Welcome to GymJam, a cutting-edge web application designed to enhance your fitne
 
 ### Prerequisites
 
-- Desktop or Laptop:
-    - Processor: Intel Core i3 or equivalent
-    - Memory: 4GB RAM or higher
-    - Storage: Sufficient storage capacity for the browser and temporary files
-    - Display: Minimum 1366x768 resolution
-    - Network: Internet connectivity for accessing the web application
+1. Backend Framework: python >= 3.9, flask, mediapipe
+   - Other Software Dependencies: Package managers (e.g. pip), version control system (e.g. Git)
 
-- Mobile Devices:
-    - Processor: Minimum dual-core processor
-    - Memory: 2GB RAM or higher
-    - Storage: Sufficient storage capacity for the browser and temporary files
-    - Display: Minimum 720p resolution
-    - Network: Internet connectivity for accessing the web application
+2. Client-Side:
+   - Operating System: Windows, macOS, or Linux
+   - Web Browser: Google Chrome, Mozilla Firefox, Safari, Microsoft Edge, or equivalent
+   - Browser Plugins: JavaScript enabled, support for HTML5 and CSS3
+   - Internet Connectivity: Broadband or high-speed internet connection
+
 
 ### Installation
 
