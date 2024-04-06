@@ -42,6 +42,13 @@ Welcome to GymJam, a cutting-edge web application designed to enhance your fitne
    ```bash
    pip3 -r requirements.txt
    ```
+## Framework
+
+### Mediapipe:
+
+![](assets/human-pose-model.jpg)
+
+MediaPipe is an open-source framework developed by Google that provides a comprehensive solution for building machine learning (ML) pipelines to process multimedia data, including video, audio, and image streams. It is designed to facilitate the development of real-time perception and processing pipelines, particularly for tasks related to computer vision and media processing.
 
 ## Running the Simulation
 
@@ -51,14 +58,19 @@ Welcome to GymJam, a cutting-edge web application designed to enhance your fitne
     ```bash
     python3 -m venv my_env
     ```
+
+3. Activate the virtual environment:
+    ```bash
+    source my_env/bin/activate
+    ```
     
 
-3. Run the code:
+4. Run the code:
     ```bash
     python app.py
     ```
 
-4. Copy and paste anyone of the url in a browser.
+5. Copy and paste anyone of the url in a browser.
     - Left Bicep Curl:
         ```
         http://localhost:5000/video_feed_left
@@ -76,7 +88,14 @@ Welcome to GymJam, a cutting-edge web application designed to enhance your fitne
         http://localhost:5000/video_feed_squat
         ```
 
-5. Observe and follow the instructions on the browser for the correct form of exercise.
+6. Observe and follow the instructions on the browser for the correct form of exercise.
+
+## Exercise Overview
+
+<div style="display: flex; justify-content: center;">
+  <img src="assets/squats.png" alt="Squats" style="width: 45%; margin-right: 5px;">
+  <img src="assets/pushup.png" alt="Pushup" style="width: 45%; margin-left: 5px;">
+</div>
 
 ## Customizing and Extending
 
@@ -99,12 +118,3 @@ If you would like to contribute to this project, please follow our [contribution
 ## License
 
 This project is licensed under the [Apache License 2.0](LICENSE).
-
-This code COUNTS and CORRECTS pose using MediaPipe framework:-
-
-1. PoseModule.py is the base file containing different functions for calculating angle, tracking position, capturing video feed.
-2. app.py uses flask to rendering captured webcame frames to webpage
-3. pose_left.py calculates and corrects left arm bicep curl
-4. pose_right.py calculates and corrects right arm bicep curl
-5. pose_pushup.py calculates and corrects pushup using coordinates from the left side
-6. pose_squat.py calculates and corrects squat using coordinates from the left side
