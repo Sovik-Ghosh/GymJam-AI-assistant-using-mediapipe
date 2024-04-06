@@ -36,7 +36,17 @@ Welcome to GymJam, a cutting-edge web application designed to enhance your fitne
    cd backend
    ```
 
-3. Install dependencies (if any) and set up your development environment.
+3. Create a virtual environment:
+    ```bash
+    python3 -m venv my_env
+    ```
+
+4. Activate the virtual environment:
+    ```bash
+    source my_env/bin/activate
+    ```
+
+5. Install dependencies (if any) and set up your development environment.
    ```bash
    pip3 -r requirements.txt
    ```
@@ -52,23 +62,18 @@ MediaPipe is an open-source framework developed by Google that provides a compre
 
 1. Go to backend directory
 
-2. Create a virtual environment:
-    ```bash
-    python3 -m venv my_env
-    ```
-
-3. Activate the virtual environment:
+2. Activate the virtual environment:
     ```bash
     source my_env/bin/activate
     ```
     
 
-4. Run the code:
+3. Run the code:
     ```bash
     python app.py
     ```
 
-5. Copy and paste anyone of the url in a browser.
+4. Copy and paste anyone of the url in a browser.
     - Left Bicep Curl:
         ```
         http://localhost:5000/video_feed_left
@@ -86,7 +91,7 @@ MediaPipe is an open-source framework developed by Google that provides a compre
         http://localhost:5000/video_feed_squat
         ```
 
-6. Observe and follow the instructions on the browser for the correct form of exercise.
+5. Observe and follow the instructions on the browser for the correct form of exercise.
 
 ## Exercise Overview
 
