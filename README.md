@@ -46,7 +46,7 @@ Welcome to GymJam, a cutting-edge web application designed to enhance your fitne
 
 ### Mediapipe:
 
-![](assets/human-pose-model.jpg)
+![](assets/pipe.jpeg)
 
 MediaPipe is an open-source framework developed by Google that provides a comprehensive solution for building machine learning (ML) pipelines to process multimedia data, including video, audio, and image streams. It is designed to facilitate the development of real-time perception and processing pipelines, particularly for tasks related to computer vision and media processing.
 
