@@ -100,12 +100,12 @@ MediaPipe is an open-source framework developed by Google that provides a compre
 Feel free to customize the project to implement your strategies and behaviors for extending exercise variations.
 
 You can modify the existing controllers or create new ones.
-1. PoseModule.py is the base file containing different functions for calculating angle, tracking position, capturing video feed.
-2. app.py uses flask to rendering captured webcame frames to webpage
-3. pose_left.py calculates and corrects left arm bicep curl
-4. pose_right.py calculates and corrects right arm bicep curl
-5. pose_pushup.py calculates and corrects pushup using coordinates from the left side
-6. pose_squat.py calculates and corrects squat using coordinates from the left side
+1. [PoseModule.py](backend/PoseModule.py) is the base file containing different functions for calculating angle, tracking position, capturing video feed.
+2. [app.py](backend/app.py) uses flask to rendering captured webcame frames to webpage
+3. [pose_left.py](backend/pose_left.py) calculates and corrects left arm bicep curl
+4. [pose_right.py](backend/pose_right.py) calculates and corrects right arm bicep curl
+5. [pose_pushup.py](backend/pose_pushup.py) calculates and corrects pushup using coordinates from the left side
+6. [pose_squat.py](backend/pose_squat.py) calculates and corrects squat using coordinates from the left side
 
 Additionally, you can explore advanced features provided by Mediapipe.
 
