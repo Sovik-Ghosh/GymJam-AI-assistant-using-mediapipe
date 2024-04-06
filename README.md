@@ -94,7 +94,7 @@ MediaPipe is an open-source framework developed by Google that provides a compre
 
 <div style="display: flex; justify-content: center;">
   <img src="assets/squats.jpg" alt="Squats" style="width: 55%; height: 250px; margin-right: 5px;">
-  <img src="assets/pushup.png" alt="Pushup" style="width: 42%; margin-left: 5px;">
+  <img src="assets/pushup.png" alt="Pushup" style="width: 43%; margin-left: 5px;">
 </div>
 
 ## Customizing and Extending
