@@ -1,5 +1,5 @@
 <div style="display: flex; justify-content: center;">
-  <img src="/assets/app.logomakr.com28ja6E.gif" alt="Squats" style="width: 300%; height: auto; margin-right: 5px;">
+  <img src="/assets/app.logomakr.com28ja6E.gif" alt="Squats" style="width: 300%; height: auto;">
 </div>
 
 <div style="display: flex; justify-content: center;">
