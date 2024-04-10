@@ -1,4 +1,6 @@
-![GymJam](/assets/app.logomakr.com28ja6E.gif)
+<div style="display: flex; justify-content: center;">
+  <img src="/assets/app.logomakr.com28ja6E.gif" alt="Squats" style="width: 100%; height: auto; margin-right: 5px;">
+</div>
 
 <div style="display: flex; justify-content: center;">
   <img src="assets/combo.jpg" alt="Squats" style="width: 100%; height: auto; margin-right: 5px;">
