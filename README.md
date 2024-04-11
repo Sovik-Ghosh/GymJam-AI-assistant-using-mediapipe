@@ -27,7 +27,7 @@ Welcome to GymJam, a cutting-edge web application designed to enhance your fitne
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Sovik-Ghosh/GymJam.git
+   https://github.com/Sovik-Ghosh/GymJam-AI-assistant-using-mediapipe.git
    ```
 
 2. Navigate to the project directory:
